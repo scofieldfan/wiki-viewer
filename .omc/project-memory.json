@@ -1,0 +1,161 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776146651045,
+  "projectRoot": "/Users/mi/work-work/wiki-viewer",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "18.3.1",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "18.3.1",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "6.0.3",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "electron-vite dev",
+      "build": "electron-vite build",
+      "preview": "electron-vite preview",
+      "package": "electron-vite build && electron-builder"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "build": {
+      "path": "build",
+      "purpose": "Build output",
+      "fileCount": 3,
+      "lastAccessed": 1776146650848,
+      "keyFiles": [
+        "icon.icns",
+        "icon.png",
+        "make_icon.py"
+      ]
+    },
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 4,
+      "lastAccessed": 1776146650849,
+      "keyFiles": [
+        "Wiki Viewer-1.0.0-arm64.dmg",
+        "Wiki Viewer-1.0.0-arm64.dmg.blockmap",
+        "builder-debug.yml",
+        "builder-effective-config.yaml"
+      ]
+    },
+    "out": {
+      "path": "out",
+      "purpose": "Build output",
+      "fileCount": 0,
+      "lastAccessed": 1776146650860,
+      "keyFiles": []
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 1,
+      "lastAccessed": 1776146650861,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src/renderer/App.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1776147559357,
+      "type": "file"
+    },
+    {
+      "path": "src/main/index.ts",
+      "accessCount": 8,
+      "lastAccessed": 1776147681078,
+      "type": "file"
+    },
+    {
+      "path": "src/preload/index.ts",
+      "accessCount": 4,
+      "lastAccessed": 1776147563387,
+      "type": "file"
+    },
+    {
+      "path": "src/main/fileSystem.ts",
+      "accessCount": 4,
+      "lastAccessed": 1776147670360,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 2,
+      "lastAccessed": 1776146875990,
+      "type": "directory"
+    },
+    {
+      "path": "src/shared/types.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776146882361,
+      "type": "file"
+    },
+    {
+      "path": "src/renderer/components/Sidebar/Sidebar.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776146889423,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 1,
+      "lastAccessed": 1776147481946,
+      "type": "directory"
+    }
+  ],
+  "userDirectives": []
+}
