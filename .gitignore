@@ -48,3 +48,6 @@ Thumbs.db
 
 # Optional eslint cache
 .eslintcache
+
+# OMC agent state
+.omc/

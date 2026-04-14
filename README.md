@@ -117,7 +117,7 @@ src/
 
 ### Configuration
 
-On first launch the app defaults to `~/work-work/my-wiki` as the wiki root.  
+On first launch the app defaults to `~/wiki` as the wiki root.  
 You can change this at any time through the **folder selector** in the UI.  
 The chosen path is stored in Electron's `userData` directory as `wiki-viewer-config.json`.
 
@@ -253,7 +253,7 @@ src/
 
 ### 配置
 
-首次启动时，应用默认将 `~/work-work/my-wiki` 作为 wiki 根目录。  
+首次启动时，应用默认将 `~/wiki` 作为 wiki 根目录。  
 可随时通过界面中的**文件夹选择器**更改。  
 所选路径以 `wiki-viewer-config.json` 的形式存储在 Electron 的 `userData` 目录中。
 

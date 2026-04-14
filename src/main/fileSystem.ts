@@ -1,10 +1,11 @@
 import { readdir, stat, readFile as readFileAsync, access, writeFile } from 'fs/promises'
 import { readFileSync, existsSync, writeFileSync } from 'fs'
 import { join, resolve, dirname, relative } from 'path'
+import { homedir } from 'os'
 import { app } from 'electron'
 import type { TreeNode } from '../shared/types'
 
-const DEFAULT_WIKI_ROOT = '/Users/mi/work-work/my-wiki'
+const DEFAULT_WIKI_ROOT = join(homedir(), 'wiki')
 const MAX_DEPTH = 8
 const SUPPORTED_EXTS = new Set(['.md', '.txt', '.pdf'])
 const SECONDARY_DIRS = new Set(['raw', 'outputs', 'note'])
